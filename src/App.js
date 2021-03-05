@@ -33,7 +33,7 @@ class App extends React.Component {
                             },
                         },
                         () => {
-                            // set state je asinhron i njegovo stanje se proverava ovako!!!
+                            // set state je asinhron i njegovo trenutno stanje se proverava ovako
                             console.log(this.state);
                         }
                     );
